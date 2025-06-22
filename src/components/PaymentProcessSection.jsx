@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import GlowBlob from "../utilities/GlowBlob";
 import TitleLightning from "../assets/title-lighting.svg";

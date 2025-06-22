@@ -35,7 +35,7 @@ const fadeUp = {
 const ExceptionalSupport = () => {
   return (
     <motion.section
-      className="relative w-[90%] mx-auto py-20 px-4 md:px-12 lg:px-24 text-white"
+      className="relative w-[90%] lg:w-[85%] mx-auto py-20 px-4 md:px-12 lg:px-24 text-white"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
@@ -86,7 +86,7 @@ const ExceptionalSupport = () => {
           <button className="mt-4 w-36 text-sm border py-2 px-6 border-cyan-50 rounded-lg font-medium inline-flex items-center gap-2 hover:bg-white/60 hover:text-gray transition">
             <span>Explore</span> <HiMiniArrowLongRight />
           </button>
-          <div className="flex flex-wrap sm:flex-nowrap items-center justify-center gap-6 border border-cyan-400/10 rounded-xl p-5 mt-6 w-full">
+          <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-6 border border-cyan-400/10 rounded-xl p-5 mt-6 w-full">
             <img src={PlaySvg} alt="Play" className="w-16 sm:w-20 h-auto" />
             <img src={Iphone} alt="iPhone" className="w-24 sm:w-36 h-auto object-contain" />
             <img src={SymbolSvg} alt="Symbol" className="w-16 sm:w-24 h-auto object-contain" />

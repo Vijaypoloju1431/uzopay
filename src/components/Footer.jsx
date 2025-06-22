@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebookF, FaXTwitter, FaInstagram } from "react-icons/fa6";
 import { IoIosArrowUp } from "react-icons/io";
 import { motion } from 'framer-motion'
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -64,8 +65,22 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold border-l border-gray-500 pl-2 mb-4">Company</h4>
               <ul className="text-sm space-y-2 ml-2 text-gray-300">
-                <li className="cursor-pointer hover:underline hover:opacity-70">About us</li>
-                <li className="cursor-pointer hover:underline hover:opacity-70">Contact us</li>
+                <li>
+                  <NavLink
+                    to="/about"
+                    className="hover:underline hover:opacity-70 block w-fit"
+                  >
+                    About us
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/contactus"
+                    className="hover:underline hover:opacity-70 block w-fit"
+                  >
+                    Contact us
+                  </NavLink>
+                </li>
               </ul>
             </div>
           </div>

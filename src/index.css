@@ -10,3 +10,6 @@
     @apply shadow-xl transition-all duration-300 hover:scale-95;
   }
 }
+body {
+  @apply font-body;
+}

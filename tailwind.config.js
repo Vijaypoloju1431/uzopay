@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+
 
 export default {
   content: [
@@ -14,14 +14,12 @@ export default {
         cyanMediumShadow: "10px 10px 300px 150px rgb(120 53 186 / 0.5)",
         cyanSmallShadow: "65 75px 100px 20px rgba(138, 161, 233, 0.7)",
         voiletMediumShadow: "10px 10px 300px 150px rgb(120 53 186 / 0.5)",
-        orangeBigShadow: "10px 10px 10000px 500px rgba(240, 169, 79, 0.3)",
-        orangeMediumShadow: "10px 10px 2000px 150px rgba(240, 169, 79, 0.5)",
         customboxshadow: '0px 4px 5px 0px rgba(0,0,0,0.75)',
         glow: "0 0 20px rgba(93, 95, 255, 0.5)",
       },
     },
     fontFamily: {
-      body: ["Josefin Sans"],
+      body: ["Poppins", "sans-serif"],
       special: ['"Nunito"'],
     },
   },

@@ -125,7 +125,7 @@ const Testimonials = () => {
       </Swiper>
 
       {/* Navigation Buttons */}
-      <div className="pt-14">
+      <div className="pt-2">
         <CustomeSwiperNavButtons />
       </div>
     </motion.section>

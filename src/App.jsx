@@ -1,36 +1,34 @@
-
-import './App.css'
-import ExceptionalSupport from './components/ExceptionalSupport'
-import FinanceFuture from './components/FinanceFuture'
-import Footer from './components/Footer'
-import HeroSection from './components/HeroSection'
-import Navbar from './components/Navbar'
-import OurExpertise from './components/OurExpertise'
-import PaymentCard from './components/PaymentCard'
-import PaymentProcessSection from './components/PaymentProcessSection'
-import PaymentsSection from './components/PaymentsSection'
-import PayoutSection from './components/PayoutSection'
-import Testimonials from './components/Testimonials'
+import { Outlet } from 'react-router-dom';
+import './App.css';
+import NavBar from './components/Navbar';
+import Footer from './components/Footer';
+import AuthModal from "./components/AuthModel"
+import { useAuth } from './context/AuthContext'; 
 
 function App() {
-
+  const { showModal, setShowModal, authMode } = useAuth();
 
   return (
-    <div className='bg-black text-white pb-5'>
-      <div className='shadow-custom-box-shadow pb-5'>
-        <Navbar />
+    <div className='bg-black text-white min-h-screen'>
+      <div className='shadow-custom-box-shadow'>
+        <NavBar />
       </div>
-      <HeroSection />
-      <OurExpertise />
-      <PayoutSection />
-      <ExceptionalSupport />
-      <PaymentProcessSection />
-      <PaymentsSection/>
-      <FinanceFuture />
-      <Testimonials />
+
+      {/* Main content */}
+      <Outlet />
+
+      {/* Footer */}
       <Footer />
+
+      {/* sign/login Modal */}
+      {showModal && (
+        <AuthModal
+          mode={authMode}
+          onClose={() => setShowModal(false)}
+        />
+      )}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

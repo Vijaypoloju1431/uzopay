@@ -1,12 +1,12 @@
 import React from "react";
-// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
-// Import all images at the top
+
+// Import images
 import shield from '../assets/sheild.svg';
 import banking from '../assets/banking.svg';
 import payouts from '../assets/payouts.svg';
@@ -15,7 +15,6 @@ import bulkpayments from '../assets/bulkpayments.svg';
 import CustomeSwiperNavButtons from "../utilities/CustomeSwiperNavButtons";
 import SectionHeading from "../utilities/SectionHeading";
 
-// Now use them inside the array
 const cardsData = [
   {
     id: 1,

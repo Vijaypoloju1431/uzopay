@@ -1,5 +1,4 @@
 import React from "react";
-// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import star from '../assets/Glitter_R.svg'
 const HeroSection = () => {
