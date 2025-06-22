@@ -1,0 +1,18 @@
+<svg width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-9.5" y="-10" width="46" height="36"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(5px);clip-path:url(#bgblur_0_168_6168_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="10">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 3.44972C1 1.82063 2.32063 0.5 3.94972 0.5H23.0503C24.6794 0.5 26 1.82064 26 3.44972V12.5503C26 14.1794 24.6794 15.5 23.0503 15.5H3.94972C2.32063 15.5 1 14.1794 1 12.5503L1 3.44972Z" fill="black" fill-opacity="0.6"/>
+<path d="M23.0503 0.25H3.94972C2.18256 0.25 0.75 1.68256 0.75 3.44972V12.5503C0.75 14.3174 2.18256 15.75 3.94972 15.75H23.0503C24.8174 15.75 26.25 14.3174 26.25 12.5503V3.44972C26.25 1.68256 24.8174 0.25 23.0503 0.25Z" stroke="white" stroke-opacity="0.5" stroke-width="0.5"/>
+</g>
+<path d="M11.8337 12.2857H15.167" stroke="white" stroke-opacity="0.5" stroke-width="0.5" stroke-linecap="square"/>
+<path d="M11.8337 7.99979H15.167" stroke="white" stroke-opacity="0.5" stroke-width="0.5" stroke-linecap="square"/>
+<path d="M11.8337 3.71415H15.167" stroke="white" stroke-opacity="0.5" stroke-width="0.5" stroke-linecap="square"/>
+<rect x="15.4168" y="10.75" width="8.66667" height="3.07143" rx="1.53571" stroke="white" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="2.91577" y="10.75" width="8.66667" height="3.07143" rx="1.53571" stroke="white" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="15.4168" y="6.46436" width="8.66667" height="3.07143" rx="1.53571" stroke="white" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="2.91577" y="6.46436" width="8.66667" height="3.07143" rx="1.53571" stroke="white" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="15.4168" y="2.17847" width="8.66667" height="3.07143" rx="1.53571" stroke="white" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="2.91577" y="2.17847" width="8.66667" height="3.07143" rx="1.53571" stroke="white" stroke-opacity="0.5" stroke-width="0.5"/>
+<defs>
+<clipPath id="bgblur_0_168_6168_clip_path" transform="translate(9.5 10)"><path fill-rule="evenodd" clip-rule="evenodd" d="M1 3.44972C1 1.82063 2.32063 0.5 3.94972 0.5H23.0503C24.6794 0.5 26 1.82064 26 3.44972V12.5503C26 14.1794 24.6794 15.5 23.0503 15.5H3.94972C2.32063 15.5 1 14.1794 1 12.5503L1 3.44972Z"/>
+</clipPath></defs>
+</svg>

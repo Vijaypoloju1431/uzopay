@@ -1,0 +1,28 @@
+<svg width="368" height="172" viewBox="0 0 368 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="35" y="-42.5" width="298" height="298"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="40">
+<circle cx="184" cy="106.5" r="108.5" stroke="url(#paint0_linear_168_1282)" stroke-opacity="0.3"/>
+<circle cx="184" cy="106.5" r="108.5" stroke="white" stroke-opacity="0.1"/>
+</g>
+<foreignObject x="0" y="-77.5" width="368" height="368"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="40">
+<circle cx="184" cy="106.5" r="143.5" stroke="url(#paint1_linear_168_1282)" stroke-opacity="0.3"/>
+<circle cx="184" cy="106.5" r="143.5" stroke="white" stroke-opacity="0.1"/>
+</g>
+<foreignObject x="-40" y="-117.5" width="448" height="448"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="40">
+<circle cx="184" cy="106.5" r="183.5" stroke="url(#paint2_linear_168_1282)" stroke-opacity="0.1"/>
+<circle cx="184" cy="106.5" r="183.5" stroke="white" stroke-opacity="0.1"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_168_1282" x1="184" y1="-2.5" x2="184" y2="215.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.4"/>
+<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="paint1_linear_168_1282" x1="184" y1="-37.5" x2="184" y2="250.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.4"/>
+<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="paint2_linear_168_1282" x1="184" y1="-77.5" x2="184" y2="290.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.4"/>
+<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+</linearGradient>
+</defs>
+</svg>
