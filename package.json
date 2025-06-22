@@ -3,7 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Vijaypoloju1431.github.io/uzopay",
+  "homepage": "https://vijaypoloju1431.github.io/uzopay",
+
 
   "scripts": {
     "dev": "vite",
